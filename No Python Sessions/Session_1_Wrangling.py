@@ -18,6 +18,8 @@ path = r"/workspaces/Python-Learning/No Python Sessions/Data"
 
 files = glob.glob(path+"/*.csv")
 
+print(files)
+
 dfs = {}
 
 for f in files:
