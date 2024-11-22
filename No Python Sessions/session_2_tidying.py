@@ -112,3 +112,4 @@ if files:
     fig = make_chart(vis_df[['la_name', 'time_period', 'category', measure_select]], measure_select)
  
     st.plotly_chart(fig)
+    
